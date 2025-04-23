@@ -76,8 +76,8 @@ def main():
     url = input("Enter the URL to scrape reviews: ")
 
     # Oxylabs credentials
-    username = 'tajtraders118_8iYYr'
-    password = '8UL+E9neU8JdiC7'
+    username = 'Your_oxylab_user_name'
+    password = 'Your_oxylab_password'
 
     # Get the reviews from the URL
     reviews = get_reviews_with_oxylabs(username, password, url)
